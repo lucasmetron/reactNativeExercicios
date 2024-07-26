@@ -1,19 +1,11 @@
 import React from 'react';
 import {SafeAreaView, StyleSheet} from 'react-native';
-import Primeiro from './components/Primiero';
-import Aleatorio from './components/Aleatorio';
+import Contatdor from './components/Contatdor';
 
 function App() {
-  console.log('teste log');
-  console.warn('teste warn', {teste: 'oi'});
   return (
     <SafeAreaView style={style.App}>
-      <Aleatorio min={1} max={60} />
-      <Aleatorio min={1} max={60} />
-      <Aleatorio min={1} max={60} />
-      <Aleatorio min={1} max={60} />
-      <Aleatorio min={1} max={60} />
-      <Aleatorio min={1} max={60} />
+      <Contatdor vInicio={0} />
     </SafeAreaView>
   );
 }
