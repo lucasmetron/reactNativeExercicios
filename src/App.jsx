@@ -1,11 +1,11 @@
 import React from 'react';
 import {SafeAreaView, StyleSheet} from 'react-native';
-import FlexboxV4 from './components/FlexboxV4';
+import MegaGenenerator from './components/MegaGenenerator/index';
 
 function App() {
   return (
     <SafeAreaView style={style.FlexV1}>
-      <FlexboxV4 />
+      <MegaGenenerator />
     </SafeAreaView>
   );
 }
